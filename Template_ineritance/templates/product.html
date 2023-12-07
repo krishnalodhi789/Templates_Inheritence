@@ -1,0 +1,75 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block title %}
+  product
+{% endblock title %}
+
+{% block productActive %}activelink{% endblock productActive %}
+
+{% block content %}
+<div class="container-fluid py-3">
+    <div class="row g-3">
+        <div class="col-3 text-center">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/pic.png' %}" class="card-img-top" alt="..." style="height: 200px; width:150px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3 text-center">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/pic2.png' %}" class="card-img-top" alt="..." style="height: 200px; width:150px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3 text-center">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/pic3.png' %}" class="card-img-top" alt="..." style="height: 200px; width:150px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3 text-center">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/pic4.png' %}" class="card-img-top" alt="..." style="height: 200px; width:150px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3 text-center">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/pic3.png' %}" class="card-img-top" alt="..." style="height: 200px; width:150px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-3 text-center">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/pic1.png' %}" class="card-img-top" alt="..." style="height: 200px; width:150px">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

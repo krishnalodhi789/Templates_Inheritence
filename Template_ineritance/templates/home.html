@@ -1,0 +1,25 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block title %}
+  Home
+{% endblock title %}
+
+{% block homeActive %}activelink{% endblock homeActive %}
+
+{% block content %}
+<div class="container  rounded-4 shadow-lg py-5 bg-light my-auto text-center">
+    <div class="row ">
+      <div class="col-9 text-center m-auto">
+        <img src="{% static 'images/pic.png' %}" alt="" style="height: 200px; width:150px">
+        <h3 class="text-dark" style="font-family: 'Nova Square', sans-serif;">BK WEB</h3>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
+          extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <a href=""><button class="btn btn-primary px-3">learn more</button></a>
+          <a href=""><button class="btn btn-outline-primary px-3 ms-3">about me</button></a>
+      </div>
+    </div>
+  </div>
+  
+{% endblock content %}
